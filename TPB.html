@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIRTA PERMAI BAHARI - Shipping Agency & Maritime Logistics Indonesia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff; /* Mostly white theme */
+        }
+        .nav-link:hover {
+            color: #059669; /* emerald-600 */
+            transition: color 0.2s;
+        }
+        .hero-section {
+            /* Using a high-contrast maritime photo */
+            background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://placehold.co/1920x800/22c55e/ffffff?text=Professional+Shipping+Vessel+Operations');
+            background-size: cover;
+            background-position: center;
+            min-height: 80vh;
+            color: #0757c7;
+        }
+        .hero-section h1 {
+            color: #047857; /* Darker green for headline */
+        }
+        .accent-green {
+            background-color: #10b981; /* emerald-500 */
+        }
+        /* Style for the colored TPB logo text based on the image */
+        .logo-text-tpb {
+            font-style: italic;
+            font-weight: 900;
+            color: #3da329; /* Red accent from logo */
+            letter-spacing: -1px;
+        }
+        /* Custom animation for hero text */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translate3d(0, 40px, 0); }
+            to { opacity: 1; transform: translate3d(0, 0, 0); }
+        }
+        .animate-fadeInUp {
+            animation: fadeInUp 1s ease-out;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="#" class="flex-shrink-0 flex items-center p-2 border-2 border-green-600 rounded-full">
+                    <span class="text-3xl logo-text-tpb mr-1">TPB</span>
+                    <span class="text-lg font-bold text-gray-700 hidden sm:inline">PT. TIRTA PERMAI BAHARI</span>
+                </a>
+
+                <nav class="hidden lg:flex space-x-8 text-lg font-medium">
+                    <a href="#home" class="nav-link text-gray-600 hover:text-green-600">Home</a>
+                    <a href="#history" class="nav-link text-gray-600 hover:text-green-600">About Us</a>
+                    <a href="#vision-mission" class="nav-link text-gray-600 hover:text-green-600">Vision & Mission</a>
+                    <a href="#services" class="nav-link text-gray-600 hover:text-green-600">Services</a>
+                    <a href="#network" class="nav-link text-gray-600 hover:text-green-600">Network</a>
+                    <a href="#team" class="nav-link text-gray-600 hover:text-green-600">Our Team</a>
+                    <a href="#contact" class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition duration-300 shadow-md">Contact Us</a>
+                </nav>
+
+                <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-md text-gray-600 hover:bg-gray-100 transition duration-300">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden lg:hidden bg-white shadow-md">
+            <div class="pt-2 pb-3 space-y-1 px-4">
+                <a href="#home" class="block py-2 text-base font-medium text-gray-700 hover:bg-green-50 hover:text-green-600 rounded-md">Home</a>
+                <a href="#history" class="block py-2 text-base font-medium text-gray-700 hover:bg-green-50 hover:text-green-600 rounded-md">About Us</a>
+                <a href="#vision-mission" class="block py-2 text-base font-medium text-gray-700 hover:bg-green-50 hover:text-green-600 rounded-md">Vision & Mission</a>
+                <a href="#services" class="block py-2 text-base font-medium text-gray-700 hover:bg-green-50 hover:text-green-600 rounded-md">Services</a>
+                <a href="#network" class="block py-2 text-base font-medium text-gray-700 hover:bg-green-50 hover:text-green-600 rounded-md">Network</a>
+                <a href="#team" class="block py-2 text-base font-medium text-gray-700 hover:bg-green-50 hover:text-green-600 rounded-md">Our Team</a>
+                <a href="#contact" class="block py-2 text-base font-medium bg-green-600 text-white rounded-md text-center mt-2">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section relative flex items-center justify-center text-center min-h-screen"
+        style="background-image: url('https://raw.githubusercontent.com/tirtapermai/Webiste_TPB/2762ee65a1f06d6f225f0249e62bdac06b502ea4/husnan_arifin.jpeg'); 
+            background-size: cover; 
+            background-position: center;">
+        
+        <div class="absolute inset-0 bg-white opacity-10"></div> 
+        <div class="p-8 max-w-5xl bg-white bg-opacity-70 rounded-xl shadow-2xl relative z-10">
+            <h1 class="text-5xl sm:text-6xl md:text-7xl font-extrabold leading-tight mb-4 animate-fadeInUp">
+                " Your Request is Our Mission "
+            </h1>
+            <p class="text-xl sm:text-3xl mb-1 font-semibold text-green-700">
+                PT. Tirta Permai Bahari 
+            </p>
+            <p class="text-xl sm:text-2xl mb-5 font-semibold text-green-700">
+                Operational Excellence in Shipping Agency Services
+            </p>
+            <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
+                Tirta Permai Bahari runs operational excellence of shipping agency with competitive cost and quality service. We have been trusted to represent national and international shipping companies and provide services for all types of vessels.
+            </p>
+            <a href="#services" class="inline-block px-8 py-3 text-lg font-semibold text-white bg-green-700 rounded-xl hover:bg-green-800 transition duration-300 shadow-lg transform hover:scale-105">
+                Explore Solutions
+            </a>
+        </div>
+    </section>
+
+    <section id="history" class="py-16 sm:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-start">
+                
+                <div>
+                    <p class="text-sm font-semibold text-green-600 uppercase tracking-widest">ABOUT US</p>
+                    
+                    <h2 class="mt-2 text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl border-b-4 border-green-600 pb-2 inline-block">
+                        PT. TIRTA PERMAI BAHARI
+                    </h2>
+                    
+                    <p class="mt-8 text-lg text-gray-700 leading-relaxed">
+                        PT. TIRTA PERMAI BAHARI (TPB) was established to meet the dynamic and demanding market of shipping agency services across all regions of Indonesia. Our foundation was driven by the goal of not just participating, but offering superior and more efficient services for the fleet activities within our group and for external clients.
+                    </p>
+                    <p class="mt-4 text-lg text-gray-700 leading-relaxed">
+                        Since our inception, we have continuously improved our professionalism and expanded our operational reach, earning the trust of reputable **national and international shipping companies**.
+                    </p>
+
+                </div>
+
+                <div class="mt-10 lg:mt-0 rounded-xl overflow-hidden shadow-2xl sticky top-20">
+                    <img class="w-full h-auto object-cover" 
+                        src="https://raw.githubusercontent.com/tirtapermai/Webiste_TPB/main/history_1.png" 
+                        alt="TPB History Timeline">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="vision-mission" class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-sm font-semibold text-green-600 uppercase tracking-widest">GUIDING PRINCIPLES</span>
+                <h2 class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                    Vision & Mission
+                </h2>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="p-10 rounded-xl shadow-2xl bg-green-50 border-t-8 border-green-700">
+                    <h3 class="text-3xl font-extrabold text-green-800 mb-4 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                        Our Vision
+                    </h3>
+                    <p class="text-xl text-gray-800 italic leading-relaxed">
+                        "Become a ship agency service company for Domestic & International, which is able to become an **international scale** ship agency service company. And highly dedicated to meet the service **quickly & precisely**."
+                    </p>
+                </div>
+
+                <div class="p-10 rounded-xl shadow-2xl bg-white border-t-8 border-gray-900">
+                    <h3 class="text-3xl font-extrabold text-gray-900 mb-4 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                        Our Mission
+                    </h3>
+                    <ul class="space-y-4 text-lg text-gray-700 list-disc pl-6">
+                        <li>Forming human resources capable of competing in domestic & international ship services.</li>
+                        <li>Organizing ship services: **fast, precise, safe, and beneficial**.</li>
+                        <li>Prioritizing quality management based on **technological progress**.</li>
+                        <li>Developing branches throughout Indonesia, to become the **largest ship agency services company**.</li>
+                        <li>Successful corporate & government programs.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="services" class="py-16 sm:py-24 relative"
+        style="background-image: url('https://raw.githubusercontent.com/tirtapermai/Webiste_TPB/main/ship2.jpeg');
+            background-size: cover;
+            background-attachment: fixed; /* Optional: Makes the image fixed while scrolling */
+            background-position: center;">
+        
+        <div class="absolute inset-0 bg-black opacity-60"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center">
+                <span class="text-sm font-semibold text-green-400 uppercase tracking-widest">CORE BUSINESS</span>
+                <h2 class="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
+                    Our Services
+                </h2>
+                <p class="mt-4 text-xl text-gray-300 max-w-3xl mx-auto">
+                    We cover every aspect of vessel operations, ensuring minimum downtime and maximum compliance across all Indonesian ports.
+                </p>
+            </div>
+
+            <div class="mt-16 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+                <div class="bg-white p-8 rounded-xl shadow-xl transition duration-300 hover:shadow-2xl border-b-4 border-green-600">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-full bg-green-100 text-green-600 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 19V6l12-3v14m-6 0v-4m-6 4H3v-4m0 0h12"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Port Clearance & Operations</h3>
+                    <p class="text-gray-600">Complete services including ship handling, operations, stowage planning, and full port clearance formalities (entry/exit, documents, authority coordination).</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-xl transition duration-300 hover:shadow-2xl border-b-4 border-green-600">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-full bg-green-100 text-green-600 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 14v6m-3-3h6M6 7h10m-3 4h3m-3 4h3m-6-4h.01M6 10h.01M6 14h.01M16 19a2 2 0 11-4 0 2 2 0 014 0zM19 18a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Crew Handling</h3>
+                    <p class="text-gray-600">Our team manages seamless crew transfer, including documentation, transportation, and coordination, ensuring minimal disruption to vessel operations.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-xl transition duration-300 hover:shadow-2xl border-b-4 border-green-600">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-full bg-green-100 text-green-600 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20v-2c0-.656-.126-1.283-.356-1.857M2 12v6a2 2 0 002 2h4a2 2 0 002-2v-6a2 2 0 00-2-2H4a2 2 0 00-2 2zm10-2h.01M17 10h.01M17 14h.01M12 4a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Husbandary </h3>
+                    <p class="text-gray-600">Provides Husbandry and Owners’ Matters services designed to support the overall operational needs of the vessel.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-xl transition duration-300 hover:shadow-2xl border-b-4 border-green-600">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-full bg-green-100 text-green-600 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20v-2c0-.656-.126-1.283-.356-1.857M2 12v6a2 2 0 002 2h4a2 2 0 002-2v-6a2 2 0 00-2-2H4a2 2 0 00-2 2zm10-2h.01M17 10h.01M17 14h.01M12 4a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Docking & Repair Agency</h3>
+                    <p class="text-gray-600">We coordinate vessel dry docking and repairs with trusted facilities, ensuring high-quality maintenance services for your fleet.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-xl transition duration-300 hover:shadow-2xl border-b-4 border-green-600">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-full bg-green-100 text-green-600 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20v-2c0-.656-.126-1.283-.356-1.857M2 12v6a2 2 0 002 2h4a2 2 0 002-2v-6a2 2 0 00-2-2H4a2 2 0 00-2 2zm10-2h.01M17 10h.01M17 14h.01M12 4a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Protective Agency Services</h3>
+                    <p class="text-gray-600">Acting as protective agents, we safeguard the interests of vessel owners and charterers during port stays.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-xl transition duration-300 hover:shadow-2xl border-b-4 border-green-600">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-full bg-green-100 text-green-600 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20v-2c0-.656-.126-1.283-.356-1.857M2 12v6a2 2 0 002 2h4a2 2 0 002-2v-6a2 2 0 00-2-2H4a2 2 0 00-2 2zm10-2h.01M17 10h.01M17 14h.01M12 4a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Bunker Fuels</h3>
+                    <p class="text-gray-600">We offer a range of marine support services, such as provisioning, bunkering, and technical assistance, tailored to meet vessel needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="network" class="py-16 sm:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <span class="text-sm font-semibold text-green-600 uppercase tracking-widest">INDONESIAN COVERAGE</span>
+            <h2 class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                Our Extensive Port Network
+            </h2>
+            <p class="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
+                We maintain branches and operational coverage across strategic ports throughout the Indonesian Archipelago, ensuring reliable service everywhere.
+            </p>
+            
+        </div>
+
+        <div class="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+
+            <div class="p-6 bg-green-700 rounded-xl shadow-lg text-white">
+                <h3 class="text-2xl font-bold mb-4 border-b pb-2 border-green-400">Head Operations & Commercial Office </h3>
+                <p class="text-sm font-semibold mb-2">PT. TIRTA PERMAI BAHARI</p>
+                <p class="text-sm mb-4">Complex Taman Polonia I, Jl. Taman Polonia I No.10, Medan 20157, North Sumatera, Indonesia.</p>
+                <div class="space-y-2 text-sm">
+                    <p class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                        commercial@tirtapermai.com
+                    </p>
+                    <p class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.128a4.5 4.5 0 007.44-0l2.257-1.128a1 1 0 01.502-1.21l-1.498-4.493A1 1 0 0115.72 3H19a2 2 0 012 2v10a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a1 1 0 00-1-1h-1a1 1 0 00-1 1v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5z"/></svg>
+                        (021) 21889988
+                    </p>
+                </div>
+            </div>
+
+            <div class="p-6 bg-gray-50 rounded-xl shadow-lg border-l-4 border-green-600">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 location-card-title">BELAWAN</h3>
+                <div class="space-y-3 text-sm text-gray-700">
+                    <div>
+                        <p class="font-semibold mb-1">Address:</p>
+                        <p>Jl. Bliton Barat No. 29, Kel. Belawan II, Kec. Medan Belawan, Sumatera Utara - Indonesia</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">General Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            commercial@tirtapermai.com
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            tpb.belawan@tirtapermai.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-6 bg-gray-50 rounded-xl shadow-lg border-l-4 border-green-600">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 location-card-title">DUMAI</h3>
+                <div class="space-y-3 text-sm text-gray-700">
+                    <div>
+                        <p class="font-semibold mb-1">Address:</p>
+                        <p>Jl. Nasional No. 137, Kel.Buluh Kasap, Kec. Dumai Timur, Dumai, Riau - Indonesia.</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">General Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            commercial@tirtapermai.com
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            tpb.dumai@tirtapermai.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-6 bg-gray-50 rounded-xl shadow-lg border-l-4 border-green-600">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 location-card-title">BATAM</h3>
+                <div class="space-y-3 text-sm text-gray-700">
+                    <div>
+                        <p class="font-semibold mb-1">Address:</p>
+                        <p>Komlek Ruko Bandar Mas Blok E, No. 3A Sungai Panas, Kota Batam, Kepulauan Riau</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">General Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            commercial@tirtapermai.com
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            tpb.batam@tirtapermai.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-6 bg-gray-50 rounded-xl shadow-lg border-l-4 border-green-600">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 location-card-title">PALEMBANG</h3>
+                <div class="space-y-3 text-sm text-gray-700">
+                    <div>
+                        <p class="font-semibold mb-1">Address:</p>
+                        <p>JL. Bambang Utayo Lr. Ramakasih IV No.848 RT.008 RW.002 Kel. Duku Kecamatan Ilit Timur III. Palembang, Sumatera Selatan</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">General Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            commercial@tirtapermai.com
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            tpb.palembang@tirtapermai.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-6 bg-gray-50 rounded-xl shadow-lg border-l-4 border-green-600">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 location-card-title">TANJUNG PRIOK</h3>
+                <div class="space-y-3 text-sm text-gray-700">
+                    <div>
+                        <p class="font-semibold mb-1">Address:</p>
+                        <p>Jl. Swasembada Timur XXIII No. 20, Rt / Rw. 005/004 Kel. Kebon Bawang – Tanjung Priok</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">General Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            commercial@tirtapermai.com
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            tpb.tanjungpriok@tirtapermai.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-6 bg-gray-50 rounded-xl shadow-lg border-l-4 border-green-600">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 location-card-title">BAYAH</h3>
+                <div class="space-y-3 text-sm text-gray-700">
+                    <div>
+                        <p class="font-semibold mb-1">Address:</p>
+                        <p>Jl. Raya Bayah Gg. Lapangan Merdeka No. 18 Bayah Tugu - Bayah  - Lebak Banten, Postal Code 42393</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">General Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            commercial@tirtapermai.com
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            tpb.bayah@tirtapermai.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-6 bg-gray-50 rounded-xl shadow-lg border-l-4 border-green-600">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 location-card-title">CILEGON</h3>
+                <div class="space-y-3 text-sm text-gray-700">
+                    <div>
+                        <p class="font-semibold mb-1">Address:</p>
+                        <p>Lingkungan Sukadamai RT.002 RW.007, Kel. Panggung Rawi, Kec. Jombang, Kota Cilegon, Provinsi Banten, Postal Code 42412</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">General Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            commercial@tirtapermai.com
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            tpb.bayah@tirtapermai.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-6 bg-gray-50 rounded-xl shadow-lg border-l-4 border-green-600">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 location-card-title">SURABAYA - GRESIK</h3>
+                <div class="space-y-3 text-sm text-gray-700">
+                    <div>
+                        <p class="font-semibold mb-1">Address:</p>
+                        <p>Kawasan Industri Maspion Jl. Alpha L6 Manyar, Gresik 61151 - East Java, Indonesia </p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">General Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            commercial@tirtapermai.com
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            tpb.gresik@tirtapermai.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-6 bg-gray-50 rounded-xl shadow-lg border-l-4 border-green-600">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 location-card-title">PONTIANAK</h3>
+                <div class="space-y-3 text-sm text-gray-700">
+                    <div>
+                        <p class="font-semibold mb-1">Address:</p>
+                        <p>Jalan Apel , Gang Timun II No.9 , Sungai Jawi Luar West Pontianak – Indonesia, Postal Code 78244.</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">General Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            commercial@tirtapermai.com
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            tpb.pontianak@tirtapermai.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-6 bg-gray-50 rounded-xl shadow-lg border-l-4 border-green-600">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 location-card-title">BALIKPAPAN</h3>
+                <div class="space-y-3 text-sm text-gray-700">
+                    <div>
+                        <p class="font-semibold mb-1">Address:</p>
+                        <p>Jl. Pipa PDAM RT 29 Kel. Gunung Samarinda Baru Kec. Balikpapan Utara perumahan Kumala residen 5 Blok A1, Postal Code 76114</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">General Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            commercial@tirtapermai.com
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            tpb.balikpapan@tirtapermai.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-6 bg-gray-50 rounded-xl shadow-lg border-l-4 border-green-600">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 location-card-title">SAMARINDA</h3>
+                <div class="space-y-3 text-sm text-gray-700">
+                    <div>
+                        <p class="font-semibold mb-1">Address:</p>
+                        <p>Perum Revolusi Indah, Lok Bahu No. 114, Lok Bahu, Sungai Kunjang, Kota Samarinda, Kalimantan Timur, Indonesia, Postal Code 75125</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">General Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            commercial@tirtapermai.com
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-semibold mb-1">Email:</p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            tpb.samarinda@tirtapermai.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </section>
+
+    <section id="team" class="py-16 sm:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <span class="text-sm font-semibold text-green-600 uppercase tracking-widest">OUR PERSONNEL</span>
+                <h2 class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                    Meet Our Dedicated Team
+                </h2>
+                <p class="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
+                    A team of experienced professionals committed to delivering operational excellence and quality service across the archipelago.
+                </p>
+            </div>
+
+            <div class="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 justify-center">
+
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden text-center transition duration-300 hover:shadow-2xl border-t-4 border-green-700">
+                    <img class="w-full h-96 object-cover object-center" img src="https://raw.githubusercontent.com/tirtapermai/Webiste_TPB/2762ee65a1f06d6f225f0249e62bdac06b502ea4/husnan_arifin.jpeg" 
+                        alt="Husnan Arifin Image"
+                        style="max-width: 100%;">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900">Husnan Arifin</h3>
+                        <p class="text-green-600 font-semibold mb-2">Head Operations & Commercial</p>
+                        <p class="text-sm text-gray-600">Leads all port operations and drives efficiency across our extensive Indonesian network.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden text-center transition duration-300 hover:shadow-2xl border-t-4 border-green-700">
+                    <img class="w-full h-96 object-cover object-center" src="https://placehold.co/400x500/047857/ffffff?text=Team+Member" alt="Hendry Ong - Commercial & Operations">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900">Hendry Ong</h3>
+                        <p class="text-green-600 font-semibold mb-2">Team Leader</p>
+                        <p class="text-sm text-gray-600">Manages client relationships and commercial strategy for vessel services.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden text-center transition duration-300 hover:shadow-2xl border-t-4 border-green-700">
+                    <img class="w-full h-96 object-cover object-center" src="https://placehold.co/400x500/047857/ffffff?text=Team+Member" alt="Fadhlan Habibie - Commercial & Operations">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900">Fadhlan Habibie</h3>
+                        <p class="text-green-600 font-semibold mb-2">Commercial & Operations</p>
+                        <p class="text-sm text-gray-600">Ensures seamless port clearance and documentation with all regulatory bodies.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden text-center transition duration-300 hover:shadow-2xl border-t-4 border-green-700">
+                    <img class="w-full h-96 object-cover object-center" src="https://placehold.co/400x500/047857/ffffff?text=Team+Member" alt="Simon Mahadi - Managing Director">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900">Simon Mahadi</h3>
+                        <p class="text-green-600 font-semibold mb-2">Managing Director</p>
+                        <p class="text-sm text-gray-600">Ensures seamless port clearance and documentation with all regulatory bodies.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden text-center transition duration-300 hover:shadow-2xl border-t-4 border-green-700">
+                    <img class="w-full h-96 object-cover object-center" src="https://placehold.co/400x500/047857/ffffff?text=Team+Member" alt="Alexander Young - Commercial & Operations">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900">Alexander Young</h3>
+                        <p class="text-green-600 font-semibold mb-2">Commercial & Operations</p>
+                        <p class="text-sm text-gray-600">Ensures seamless port clearance and documentation with all regulatory bodies.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden text-center transition duration-300 hover:shadow-2xl border-t-4 border-green-700">
+                    <img class="w-full h-96 object-cover object-center" src="https://placehold.co/400x500/047857/ffffff?text=Team+Member" alt="Richard Siburian - Commercial & Operations">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900">Richard Siburian</h3>
+                        <p class="text-green-600 font-semibold mb-2">Commercial & Operations</p>
+                        <p class="text-sm text-gray-600">Ensures seamless port clearance and documentation with all regulatory bodies.</p>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="py-16 sm:py-24 bg-green-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center text-white">
+                <span class="text-sm font-semibold uppercase tracking-widest text-green-200">GET IN TOUCH</span>
+                <h2 class="mt-2 text-4xl font-bold tracking-tight sm:text-5xl">
+                    Request a Quote or Service
+                </h2>
+                <p class="mt-4 text-xl max-w-3xl mx-auto text-green-100">
+                    Our team is ready to provide fast, precise, and safe solutions for your vessel and cargo needs.
+                </p>
+            </div>
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="space-y-8 p-8 bg-white rounded-xl shadow-lg">
+                    <h3 class="text-xl font-bold text-gray-900">Head Office Details</h3>
+                    <div class="flex items-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                        <div class="ml-4">
+                            <h4 class="text-lg font-semibold text-gray-900">Official Office Address</h4>
+                            <p class="text-gray-600"> **Gama Tower, 41th Floor**, Jalan HR Rasuna Said Kav C-22, Karet Kuningan, Kec Setiabudi, South Jakarta 12940. </p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.128a4.5 4.5 0 007.44-0l2.257-1.128a1 1 0 01.502-1.21l-1.498-4.493A1 1 0 0115.72 3H19a2 2 0 012 2v10a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a1 1 0 00-1-1h-1a1 1 0 00-1 1v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5z"/>
+                        </svg>
+                        <div class="ml-4">
+                            <h4 class="text-lg font-semibold text-gray-900">Phone & Fax</h4>
+                            <p class="text-gray-600">Phone: **(021) 21889988**<br>Fax: (021) 21889989</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                        <div class="ml-4">
+                            <h4 class="text-lg font-semibold text-gray-900">Email Address</h4>
+                            <p class="text-gray-600">operations@tirtapermai.com<br>commercial@tirtapermai.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-8 bg-green-800 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold text-white mb-6 border-b pb-2 border-green-600">Quick Quote Request</h3>
+                    <form id="contact-form">
+                        <div class="mb-4">
+                            <label for="name" class="block text-white font-medium mb-2">Your Full Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-300" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-white font-medium mb-2">Your Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-300" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="vessel" class="block text-white font-medium mb-2">Vessel Name / Service Location</label>
+                            <input type="text" id="vessel" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-300">
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-white font-medium mb-2">Service Request Details</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-300" required></textarea>
+                        </div>
+                        <button type="submit" class="w-full px-6 py-3 bg-gray-900 text-white font-semibold rounded-xl hover:bg-black transition duration-300 shadow-xl"> Send Quote Request </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-2xl font-bold mb-4 text-green-500">PT. TIRTA PERMAI BAHARI</p>
+            <p class="text-sm text-gray-400">&copy; 2025. All Rights Reserved.</p>
+            <div class="mt-4 space-x-4 text-sm">
+                <a href="#history" class="text-gray-400 hover:text-green-500 transition duration-200">History</a>
+                <span class="text-gray-600">|</span>
+                <a href="#vision-mission" class="text-gray-400 hover:text-green-500 transition duration-200">Vision & Mission</a>
+                <span class="text-gray-600">|</span>
+                <a href="#services" class="text-gray-400 hover:text-green-500 transition duration-200">Services</a>
+                <span class="text-gray-600">|</span>
+                <a href="#network" class="text-gray-400 hover:text-green-500 transition duration-200">Network</a>
+                <span class="text-gray-600">|</span>
+                <a href="#team" class="text-gray-400 hover:text-green-500 transition duration-200">Our Team</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="message-modal" class="fixed inset-0 z-50 overflow-y-auto bg-gray-900 bg-opacity-75 hidden flex items-center justify-center transition-opacity duration-300">
+        <div id="modal-content" class="bg-white rounded-lg p-6 shadow-xl w-full max-w-sm transform scale-95 opacity-0 transition-all duration-300">
+            <div class="text-right">
+                <button onclick="closeModal()" class="text-gray-400 hover:text-gray-600">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <div class="text-center mt-2">
+                <h3 id="modal-title" class="text-2xl font-bold mb-3"></h3>
+                <p id="modal-text" class="text-gray-700"></p>
+                <button onclick="closeModal()" class="mt-6 px-6 py-2 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition duration-300">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Mobile Menu Toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Form Submission Handling (Prevent actual submission and show modal instead)
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Simulate a successful form submission
+            showMessage("Thank you for your request. We will contact you shortly!", 'success');
+            // Reset the form after success
+            this.reset();
+        });
+
+        // Message Modal Functions
+        const modal = document.getElementById('message-modal');
+        const modalContent = document.getElementById('modal-content');
+        const modalTitle = document.getElementById('modal-title');
+        const modalText = document.getElementById('modal-text');
+
+        function showMessage(text, type) {
+            modalText.textContent = text;
+            if (type === 'success') {
+                modalTitle.textContent = 'Success!';
+                modalTitle.classList.remove('text-red-700');
+                modalTitle.classList.add('text-green-700');
+            } else if (type === 'error') {
+                modalTitle.textContent = 'Error!';
+                modalTitle.classList.remove('text-green-700');
+                modalTitle.classList.add('text-red-700');
+            }
+
+            modal.classList.remove('hidden');
+            // Animate In
+            setTimeout(() => {
+                modalContent.classList.remove('scale-95', 'opacity-0');
+                modalContent.classList.add('scale-100', 'opacity-100');
+            }, 10);
+        }
+
+        function closeModal() {
+            // Animate Out
+            modalContent.classList.remove('scale-100', 'opacity-100');
+            modalContent.classList.add('scale-95', 'opacity-0');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 300); // Match CSS transition duration
+        }
+    </script>
+</body>
+</html>
